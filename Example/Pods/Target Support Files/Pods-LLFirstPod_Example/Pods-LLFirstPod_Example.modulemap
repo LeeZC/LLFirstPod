@@ -1,0 +1,6 @@
+framework module Pods_LLFirstPod_Example {
+  umbrella header "Pods-LLFirstPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

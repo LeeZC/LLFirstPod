@@ -1,0 +1,16 @@
+PODS:
+  - LLFirstPod (0.1.0)
+
+DEPENDENCIES:
+  - LLFirstPod (from `../`)
+
+EXTERNAL SOURCES:
+  LLFirstPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLFirstPod: 478305b4c869d7955d6c8ab9d12754ef12290a31
+
+PODFILE CHECKSUM: 71b3a2480160ac5b1d7ee1f28dc751b0019324d0
+
+COCOAPODS: 1.11.2

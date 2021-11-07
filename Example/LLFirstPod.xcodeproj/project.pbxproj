@@ -57,16 +57,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DADF8A14CBEC16249A727D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7DADF8A14CBEC16249A727D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7F97BF82928B31E7560ECF70 /* Pods_LLFirstPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLFirstPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C498117BF8F82C85F930194 /* Pods-LLFirstPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFirstPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LLFirstPod_Tests/Pods-LLFirstPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B20E8DC98E54E1CE0FA7815 /* Pods-LLFirstPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFirstPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-LLFirstPod_Tests/Pods-LLFirstPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A566706BC3444B24203B8D50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A566706BC3444B24203B8D50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B55FDF65C169D6E8711BDADF /* Pods_LLFirstPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLFirstPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93B1F2906B9B4AA88E8D470 /* Pods-LLFirstPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFirstPod_Example.release.xcconfig"; path = "Target Support Files/Pods-LLFirstPod_Example/Pods-LLFirstPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DEAC3E3F036600DF2B9AD9F9 /* Pods-LLFirstPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFirstPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLFirstPod_Example/Pods-LLFirstPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F4F6D355EF82B96791596B21 /* LLFirstPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLFirstPod.podspec; path = ../LLFirstPod.podspec; sourceTree = "<group>"; };
+		F4F6D355EF82B96791596B21 /* LLFirstPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLFirstPod.podspec; path = ../LLFirstPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				8C498117BF8F82C85F930194 /* Pods-LLFirstPod_Tests.debug.xcconfig */,
 				9B20E8DC98E54E1CE0FA7815 /* Pods-LLFirstPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
