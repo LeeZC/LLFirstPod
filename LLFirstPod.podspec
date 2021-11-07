@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LLFirstPod'
   s.version          = '0.3.0'
-  s.summary          = 'A short description of LLFirstPod.'
+  s.summary          = 'this is my first pod ..'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
