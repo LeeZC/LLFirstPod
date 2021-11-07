@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLFirstPod'
-  s.version          = '0.6.6'
+  s.version          = '0.6.7'
   s.summary          = 'this is my first pod ..'
 
 # This description is used to generate tags and improve search results.
@@ -38,8 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'OpenSSL-Universal'
+  #s.dependency 'OpenSSL-Universal'
 
 end
