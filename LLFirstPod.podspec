@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LLFirstPod/Classes/**/*'
-  
+  #s.source_files = 'LLFirstPod/Classes/**/*'
+  s.source_files = 'Classes'
+
   # s.resource_bundles = {
   #   'LLFirstPod' => ['LLFirstPod/Assets/*.png']
   # }
