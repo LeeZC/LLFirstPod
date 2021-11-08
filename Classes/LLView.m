@@ -23,8 +23,6 @@
         
         self.backgroundColor=[UIColor yellowColor];
         
-        
-        
     }
     
     return self;
